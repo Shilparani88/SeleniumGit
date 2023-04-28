@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="password" value="manager"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="http://desktop-amt822b/login.do"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="testngExecution.ActiTimeValidLogin">
+        <methods>
+          <include name="close"/>
+          <include name="validLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testngExecution.ActiTimeValidLogin -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
