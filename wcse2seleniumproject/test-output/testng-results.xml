@@ -1,217 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[FTC1 is executed!!]]>
+      <![CDATA[27 is the threadid]]>
     </line>
     <line>
-      <![CDATA[FTC2 is executed!!]]>
+      <![CDATA[method1]]>
     </line>
     <line>
-      <![CDATA[FTC3 is executed!!]]>
+      <![CDATA[28 is the threadid]]>
     </line>
     <line>
-      <![CDATA[FTC4 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[FTC5 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[FTC6 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[ITC1 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[ITC2 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[ITC3 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[ITC4 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[ITC5 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[ITC6 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[STC1 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[STC2 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[STC3 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[STC4 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[STC5 is executed!!]]>
-    </line>
-    <line>
-      <![CDATA[STC6 is executed!!]]>
+      <![CDATA[method2]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-04-28T22:46:35 IST" name="Default suite" finished-at="2023-04-28T22:46:35 IST" duration-ms="248">
+  <suite started-at="2023-04-29T08:07:18 IST" name="Suite" finished-at="2023-04-29T08:07:18 IST" duration-ms="88">
     <groups>
-      <group name="INTEGRATION">
-        <method signature="GroupExecution.itc1()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="itc1" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.itc2()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="itc2" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.itc3()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="itc3" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.itc4()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="itc4" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.itc5()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="itc5" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.itc6()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="itc6" class="testngFlag.GroupExecution"/>
-      </group> <!-- INTEGRATION -->
-      <group name="FUNCTIONAL">
-        <method signature="GroupExecution.ftc1()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="ftc1" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.ftc2()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="ftc2" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.ftc3()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="ftc3" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.ftc4()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="ftc4" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.ftc5()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="ftc5" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.ftc6()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="ftc6" class="testngFlag.GroupExecution"/>
-      </group> <!-- FUNCTIONAL -->
-      <group name="SMOKE">
-        <method signature="GroupExecution.stc1()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="stc1" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.stc2()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="stc2" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.stc3()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="stc3" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.stc4()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="stc4" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.stc5()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="stc5" class="testngFlag.GroupExecution"/>
-        <method signature="GroupExecution.stc6()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" name="stc6" class="testngFlag.GroupExecution"/>
-      </group> <!-- SMOKE -->
     </groups>
-    <test started-at="2023-04-28T22:46:35 IST" name="Default test" finished-at="2023-04-28T22:46:35 IST" duration-ms="248">
-      <class name="testngFlag.GroupExecution">
-        <test-method signature="ftc1()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="ftc1" finished-at="2023-04-28T22:46:35 IST" duration-ms="21" status="PASS">
+    <test started-at="2023-04-29T08:07:18 IST" name="Test" finished-at="2023-04-29T08:07:18 IST" duration-ms="88">
+      <class name="testngExecution.MethodsExe">
+        <test-method signature="method1()[pri:0, instance:testngExecution.MethodsExe@3eb7fc54]" started-at="2023-04-29T08:07:18 IST" name="method1" finished-at="2023-04-29T08:07:18 IST" duration-ms="17" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[FTC1 is executed!!]]>
+              <![CDATA[27 is the threadid]]>
+            </line>
+            <line>
+              <![CDATA[method1]]>
             </line>
           </reporter-output>
-        </test-method> <!-- ftc1 -->
-        <test-method signature="ftc2()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="ftc2" finished-at="2023-04-28T22:46:35 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- method1 -->
+        <test-method signature="method2()[pri:0, instance:testngExecution.MethodsExe@3eb7fc54]" started-at="2023-04-29T08:07:18 IST" name="method2" finished-at="2023-04-29T08:07:18 IST" duration-ms="16" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[FTC2 is executed!!]]>
+              <![CDATA[28 is the threadid]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- ftc2 -->
-        <test-method signature="ftc3()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="ftc3" finished-at="2023-04-28T22:46:35 IST" duration-ms="6" status="PASS">
-          <reporter-output>
             <line>
-              <![CDATA[FTC3 is executed!!]]>
+              <![CDATA[method2]]>
             </line>
           </reporter-output>
-        </test-method> <!-- ftc3 -->
-        <test-method signature="ftc4()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="ftc4" finished-at="2023-04-28T22:46:35 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[FTC4 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ftc4 -->
-        <test-method signature="ftc5()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="ftc5" finished-at="2023-04-28T22:46:35 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[FTC5 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ftc5 -->
-        <test-method signature="ftc6()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="ftc6" finished-at="2023-04-28T22:46:35 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[FTC6 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ftc6 -->
-        <test-method signature="itc1()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="itc1" finished-at="2023-04-28T22:46:35 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ITC1 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itc1 -->
-        <test-method signature="itc2()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="itc2" finished-at="2023-04-28T22:46:35 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ITC2 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itc2 -->
-        <test-method signature="itc3()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="itc3" finished-at="2023-04-28T22:46:35 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ITC3 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itc3 -->
-        <test-method signature="itc4()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="itc4" finished-at="2023-04-28T22:46:35 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ITC4 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itc4 -->
-        <test-method signature="itc5()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="itc5" finished-at="2023-04-28T22:46:35 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ITC5 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itc5 -->
-        <test-method signature="itc6()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="itc6" finished-at="2023-04-28T22:46:35 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ITC6 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itc6 -->
-        <test-method signature="stc1()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="stc1" finished-at="2023-04-28T22:46:35 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[STC1 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- stc1 -->
-        <test-method signature="stc2()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="stc2" finished-at="2023-04-28T22:46:35 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[STC2 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- stc2 -->
-        <test-method signature="stc3()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="stc3" finished-at="2023-04-28T22:46:35 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[STC3 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- stc3 -->
-        <test-method signature="stc4()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="stc4" finished-at="2023-04-28T22:46:35 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[STC4 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- stc4 -->
-        <test-method signature="stc5()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="stc5" finished-at="2023-04-28T22:46:35 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[STC5 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- stc5 -->
-        <test-method signature="stc6()[pri:0, instance:testngFlag.GroupExecution@6ef888f6]" started-at="2023-04-28T22:46:35 IST" name="stc6" finished-at="2023-04-28T22:46:35 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[STC6 is executed!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- stc6 -->
-      </class> <!-- testngFlag.GroupExecution -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- method2 -->
+      </class> <!-- testngExecution.MethodsExe -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
